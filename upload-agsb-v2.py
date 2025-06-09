@@ -33,9 +33,9 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "zhongruan"         # 用户名
 UUID = "a91b59b6-ade4-497d-b4e9-88d184c48048"                     # UUID，留空则自动生成
-PORT = 0                   # Vmess端口，留空或0则自动生成
-DOMAIN = ""                   # 域名，留空则自动获取
-CF_TOKEN = ""                 # Cloudflare Token，留空则用Quick Tunnel
+PORT = 8888                   # Vmess端口，留空或0则自动生成
+DOMAIN = "vmess.zxiaoruan.cn/"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiMmE2OTQzYzdiZTNmMmNhZmI3N2M2MzExNjIyYWIyMTIiLCJ0IjoiYjEyODdkNzctODI0MS00OGM4LWE4ZTAtYTg5NGJmZjVmYTI1IiwicyI6Ik9EQmtaR0kxWldJdE1tVXlZUzAwTVRNd0xUa3dZMkV0TkRWalpXWXhOVEptTWprMyJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
